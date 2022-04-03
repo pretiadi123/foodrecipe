@@ -1,0 +1,65 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%
+}
+
+nav{
+    background-color: black;
+    display: grid;
+    place-items: left;
+    height: 110px;
+    line-height: 110px;
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-flex;
+    padding: 0px;
+    text-decoration: none;
+    color: rgb(19, 151, 107);
+    transition: 0.2s ease-in;
+    font-size: 25px;
+}
+nav ul li{
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+nav ul a:hover{
+    background-color: orchid;
+    color: white;
+}
+.logo a{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.logo img{
+    width: fit-content;
+    height: 140;
+}
+
+
+.header{
+    background-image: url('f7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(10, 3, 4);
+}
